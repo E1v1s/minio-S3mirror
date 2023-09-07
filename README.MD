@@ -30,7 +30,7 @@ EXTRA_ARG
 
 K8s manifest example:
 # to use S3 you need service accout with necessary permissions
-```
+```yaml
 ---
 apiVersion: v1
 data:
