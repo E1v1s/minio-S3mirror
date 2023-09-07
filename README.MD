@@ -1,3 +1,12 @@
+[![MIT license][license-image]][license-url]
+[![Docker][docker-image]][docker-url]
+
+[license-image]: https://img.shields.io/badge/license-MIT-blue.svg
+[license-url]: https://github.com/E1v1s/minio-S3mirror/blob/main/LICENSE
+
+[docker-image]: https://img.shields.io/docker/pulls/nkabanow/minio-s3mirror.svg
+[docker-url]: https://hub.docker.com/r/nkabanow/minio-s3mirror/tags
+
 This solution created to mirror minio bucket to S3, but also could be used to sync, backup and mirror betwen minio buckets.
 
 Env variables you should know:
