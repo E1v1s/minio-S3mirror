@@ -79,7 +79,7 @@ spec:
             envFrom:
             - secretRef:
                 name: minio-secrets
-            image: PATHTODOCKERIMAGE
+            image: nkabanow/minio-s3mirror:0.0.1
             imagePullPolicy: IfNotPresent
             name: minio-backup
             resources: {}
@@ -95,5 +95,5 @@ spec:
 DOCKER:
 Also it's possible to use or test ttthis solution with simple dockerr command:
 ```
-docker run -e SOURCE_ALIAS_NAME=minio-copy -e SOURCE_ENDPOINT=http://minio-endpoint:APIPORT -e SOURCE_ACCESS_KEY=key -e SOURCE_SECRET_KEY=password -e DESTINATION_ALIAS_NAME=myS3 -e DESTINATION_ENDPOINT=https://YOURBUCKET.s3.eu-central-1.amazonaws.com -e DESTINATION_ACCESS_KEY=S3accessKey -e DESTINATION_SECRET_KEY=S3SecretKey image
+docker run -e SOURCE_ALIAS_NAME=minio-copy -e SOURCE_ENDPOINT=http://minio-endpoint:APIPORT -e SOURCE_ACCESS_KEY=key -e SOURCE_SECRET_KEY=password -e DESTINATION_ALIAS_NAME=myS3 -e DESTINATION_ENDPOINT=https://YOURBUCKET.s3.eu-central-1.amazonaws.com -e DESTINATION_ACCESS_KEY=S3accessKey -e DESTINATION_SECRET_KEY=S3SecretKey nkabanow/minio-s3mirror:0.0.1
 ```
