@@ -31,7 +31,7 @@ DESTINATION_SECRET_KEY
 ```
 This variables at all form command mc alias set $DESTINATION_ALIAS_NAME
 ```
-$DESTINATION_ENDPOINT $DESTINATION_ACCESS_KEY $DESTINATION_SECRET_KEY hich set allias of destination mirror bucket
+$DESTINATION_ENDPOINT $DESTINATION_ACCESS_KEY $DESTINATION_SECRET_KEY which set allias of destination mirror bucket
 ```
 This var you can use to pereodically sync source with destination ( with --remove arg)
 https://min.io/docs/minio/linux/reference/minio-mc/mc-mirror.html#mc.mirror.-remove
