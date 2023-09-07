@@ -5,7 +5,7 @@
 [license-url]: https://github.com/E1v1s/minio-S3mirror/blob/main/LICENSE
 
 [docker-image]: https://img.shields.io/docker/pulls/nkabanow/minio-s3mirror.svg
-[docker-url]: https://hub.docker.com/r/nkabanow/minio-s3mirror/tags
+[docker-url]: https://hub.docker.com/layers/nkabanow/minio-s3mirror/0.0.1/images/sha256-9fa8f9acd4f50e5f26652dedd2fb420e05ef0edf0bb6ed564e25a88e9245b555?context=explore
 
 This solution created to mirror minio bucket to S3, but also could be used to sync, backup and mirror betwen minio buckets.
 
