@@ -24,6 +24,7 @@ EXTRA_ARG
 
 K8s manifest example:
 # to use S3 you need service accout with necessary permissions
+```
 ---
 apiVersion: v1
 data:
@@ -84,3 +85,4 @@ spec:
   schedule: 30 9 * * 3
   successfulJobsHistoryLimit: 2
   suspend: false
+```
