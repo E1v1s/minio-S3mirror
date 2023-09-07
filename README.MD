@@ -92,3 +92,8 @@ spec:
   successfulJobsHistoryLimit: 2
   suspend: false
 ```
+DOCKER:
+Also it's possible to use or test ttthis solution with simple dockerr command:
+```
+docker run -e SOURCE_ALIAS_NAME=minio-copy -e SOURCE_ENDPOINT=http://minio-endpoint:APIPORT -e SOURCE_ACCESS_KEY=key -e SOURCE_SECRET_KEY=password -e DESTINATION_ALIAS_NAME=myS3 -e DESTINATION_ENDPOINT=https://YOURBUCKET.s3.eu-central-1.amazonaws.com -e DESTINATION_ACCESS_KEY=S3accessKey -e DESTINATION_SECRET_KEY=S3SecretKey image
+```
