@@ -3,21 +3,27 @@ This solution created to mirror minio bucket to S3, but also could be used to su
 Env variables you should know:
 
 Vars with source used to create source allias.
-
+```
 SOURCE_ALIAS_NAME
 SOURCE_ENDPOINT
 SOURCE_ACCESS_KEY
 SOURCE_SECRET_KEY
-This variables at all form command mc alias set $SOURCE_ALIAS_NAME $SOURCE_ENDPOINT $SOURCE_ACCESS_KEY $SOURCE_SECRET_KEY which set allias of source mirror bucket
-
+```
+This variables at all form command mc alias set
+```
+$SOURCE_ALIAS_NAME $SOURCE_ENDPOINT $SOURCE_ACCESS_KEY $SOURCE_SECRET_KEY which set allias of source mirror bucket
+```
 Vars with destination used to create source allias
-
+```
 DESTINATION_ALIAS_NAME
 DESTINATION_ENDPOINT
 DESTINATION_ACCESS_KEY
 DESTINATION_SECRET_KEY
-This variables at all form command mc alias set $DESTINATION_ALIAS_NAME $DESTINATION_ENDPOINT $DESTINATION_ACCESS_KEY $DESTINATION_SECRET_KEY hich set allias of destination mirror bucket
-
+```
+This variables at all form command mc alias set $DESTINATION_ALIAS_NAME
+```
+$DESTINATION_ENDPOINT $DESTINATION_ACCESS_KEY $DESTINATION_SECRET_KEY hich set allias of destination mirror bucket
+```
 This var you can use to pereodically sync source with destination ( with --remove arg)
 https://min.io/docs/minio/linux/reference/minio-mc/mc-mirror.html#mc.mirror.-remove
 EXTRA_ARG
